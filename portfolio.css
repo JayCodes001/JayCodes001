@@ -1,0 +1,590 @@
+*{
+    box-sizing: border-box;
+    background-color:#181717;
+}
+.logo{
+    width: 0px;
+    height: 0px;
+}
+.logo img{
+    border-radius: 2000px;
+    height: 150px;
+    width: 150px;
+    position: relative;
+    left: 100px;
+}
+.logoname{
+    color: bisque;
+    width: 400px;
+    font-size:xx-large;
+    position: relative;
+    left: 350px;
+    bottom: 160px;
+}
+.link{
+    width: 900px;
+    height: 20px;
+}
+.link a{
+    position: relative;
+    border-radius: 2px;
+    left: 664px;
+    bottom: 220px;
+    font-weight: bold;
+    text-decoration: none;
+    height: 28px;
+    width: 138px;
+    border-color: rgb(216 98 88);
+    border: blueviolet 20px;
+    color: orange;
+    background: #181717;
+    display: inline-flex;
+    flex-direction: column;
+    justify-content: normal;    
+    font-size: 18px;
+    align-items: center;
+
+}
+.Background img{
+    height: 550px;
+    width: 370px;
+    position: relative;
+    bottom: 100px;
+    left: 1000px;
+    border:#181717 ;
+    
+    
+}
+
+h3{
+    font-size: x-large;
+    color: rgb(15, 248, 240);
+    position: relative;
+    bottom: 490px;
+    width: 500px;
+    left: 120px;
+}
+h1{
+    font-size:xx-large;
+    color: rgb(19, 128, 206);
+    position: relative;
+    bottom: 490px;
+    width: 500px;
+    left:120px;
+}
+.Name{
+    color: rgb(255, 169, 8);
+    background-color: #181717;
+}
+.hire{
+    width: 200px;
+    height: 20px;
+
+}
+.hire a{
+    position: relative;
+    bottom: 470px;
+    width: 50px;
+    text-decoration: none;
+    height: 20px;
+    left: 120px;
+    font-size: x-large;
+    margin: 15px;
+    padding: 6px;
+    transition: .4s ease;
+    background-color: rgb(100, 172, 150);
+    border-radius: 2px;
+}
+.hire a:hover{
+    background-color: rgb(129, 43, 250);
+}
+.icon{
+    width: 120px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    background: transparent;
+    justify-content: space-evenly;
+}
+.icon i{
+    color: rgb(183, 105, 56);
+    font-size: x-large;
+    position: relative;
+    width: 25px;
+    
+    left: 120px;
+    bottom:  450px;
+}
+.size {
+    color: #e2d556;
+    font-size: 47px;
+    width: 174px;
+    background-color: #1099ef;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+    position: relative;
+    bottom: 385px;
+    font-weight: bold;
+    left: 85px;
+    margin: 3px;
+    border-radius: 6px
+}
+.description{
+    height: 100px;
+    width: 100px;
+}
+.description img{
+  size: 20px;
+  height: 600px;
+  bottom:300px;
+  left: 80px;
+  border: rgb(204, 194, 191);
+  position: relative;
+  border-radius: 20px;
+
+    }
+    .summary{
+        height: 0px;
+        width: 20px;
+
+    }
+.summary ul{
+    color: aquamarine;
+    position: relative;
+    bottom: 900px;
+    left: 850px;
+    font-size: x-large;
+    text-decoration: underline;
+    width: 133px;
+    background: blue;
+    border-radius: 2px;
+    height: 36px;
+
+}
+.summary p{
+    color: antiquewhite;
+    position: relative;
+    bottom: 880px;
+    left: 800px;
+    width: 500px;
+}
+.summary2{
+    height: 20px;
+    width: 20px;
+}
+.summary2 ul{
+    color: aqua;
+    position: relative;
+    left: 850px;
+    bottom: 690px;
+    font-size: larger;
+    text-decoration: underline;
+    background-color: blue;
+    width: 150px;
+    height: 30px;
+    border-radius: 5px;
+}
+.summary2 p{
+    color: antiquewhite;
+    position: relative;
+    bottom: 660px;
+    left: 800px;
+    width: 500px;
+}
+
+#Myskills {
+    color: rgb(247 255 29);
+    position: relative;
+    top: 400px;
+    left: 85px;
+    border-radius: 1px;
+    font-size: 39px;
+    width: 205px;
+    font-weight: bold;
+    text-decoration: underline;
+    justify-content: center;
+    display: flex;
+    background-color: #3ea9e0;
+}
+.program{
+    color: aqua;
+    height: 20px;
+    width: 100px;
+    position: relative;
+    top: 506px;
+    font-size: xx-large;
+    font-weight: bold;
+    left: 80px;
+}
+
+
+.program img{
+    font-size: small;
+    height: 200px;
+    width: 350px;
+    position: relative;
+    left: 50px;
+    bottom: 45px ;
+    right: 0px;
+}
+.program2{
+    color: aqua;
+    height: 20px;
+    width: 50px;
+    position: relative;
+    top: 500px;
+    font-size: xx-large;
+    font-weight: bold;
+    left: 550px;
+}
+.program2 img{
+        position: relative;
+        left: 50px;
+        bottom: 60px;
+        height: 200px;
+        width: 350px;
+}
+.program3{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 480px;
+    left:1000px;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.program3 img{
+        position: relative;
+        left: 50px;
+        bottom: 60px;
+        height: 200px;
+        width: 350px;
+    
+}
+
+.program4{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 850px;
+    left:80px;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: bold;
+
+}
+.program4 img{
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    height: 200px;
+    width: 350px;
+}
+
+.program5{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 830px;
+    left:550px;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.program5 img{
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    height: 200px;
+    width: 350px;
+}
+
+.program6{
+    height: 20px;
+    width: 20px;
+    position: relative;
+    top: 812px;
+    left: 1000px;
+    color: aqua;
+    font-size: xx-large;
+    font-weight: bold;
+}
+.program6 img{
+    position: relative;
+    left: 50px;
+    bottom: 60px;
+    height: 200px;
+    width: 350px;
+}
+
+#MyWorks {
+    color: #d8de25;
+    position: relative;
+    top: 1100px;
+    width: 168px;
+    display: flex;
+    justify-content: center;
+    left: 85px;
+    font-weight: bold;
+    font-size: 47px;
+    text-decoration: underline;
+    background-color: #4e97ff;
+    border-radius: 4px;
+}
+    
+.calculator0 {
+    color: #d5e31c;
+    position: relative;
+    top: 1126px;
+    width: 154px;
+    justify-content: center;
+    display: flex;
+    text-decoration: underline;
+    background-color: #1995c0;
+    left: 633px;
+    height: 36px;
+    text-align: center;
+    justify-items: center;
+}
+.calculator {
+    height: 35px;
+    width: 100px;
+    color: #d7ff00;
+    top: 1250px;
+    left: 920px;
+    text-decoration: underline;
+    font-size: x-large;
+    background-color: #2b7fe2;
+    position: relative;
+}
+.calculator img{
+    width: 300px;   
+    height: 200px;
+    position: relative;
+    top: 50px;
+    right: 150px;
+}
+.calculator1{
+    height: 0px;
+    width: 0px;
+    }
+ .calculator1 img{
+        width: 300px;   
+        height: 200px;
+        position: relative;
+        left: 950px;
+        top: 1390px;
+ }
+ .calculator2{
+    height: 0px;
+    width: 0px;
+    }
+ .calculator2 img{
+        width: 300px;   
+        height: 200px;
+        position: relative;
+        left: 1150px;
+        top: 1290px;
+}
+.calculator3 {
+    height: 35px;
+    width: 100px;
+    color: #e1ff00;
+    top: 1220px;
+    left: 200px;
+    text-decoration: underline;
+    font-size: x-large;
+    background-color: #2b77e2;
+    position: relative;
+}
+ .calculator3 img{
+        width: 300px;   
+        height: 200px;
+        right: 150px;
+        position: relative;
+       top: 50px;
+     
+ }
+
+ .calculator4{
+    height: 0px;
+    width: 0px;
+    }
+ .calculator4 img{
+        width: 300px;   
+        height: 200px;
+        position: relative;
+        left: 250px;
+        top: 1340px;
+}
+.calculator5{
+    height: 0px;
+    width: 0px;
+    }
+ .calculator5 img{
+        width: 300px;   
+        height: 200px;
+        position: relative;
+        left: 400px;
+        top: 1255px;
+}
+.calculator6 {
+    height: 40px;
+    width: 100px;
+    text-decoration: underline;
+    font-size: x-large;
+    position: relative;
+    top: 1600px;
+    left: 673px;
+    color: #f6ff00;
+    background-color: #2b86e2;
+}
+ .calculator6 img{
+        width: 350px;   
+        height: 200px;
+        position: relative;
+        right: 100px;
+        top: 70px;
+}
+#resume{
+    height: 35px;
+    width: 100px;
+    position: relative;
+    top: 1950px;
+    text-decoration: underline;
+    left: 20px;
+    font-size: x-large;
+    color: #f7ff06;
+    background-color: #0aa3ef;
+}
+.resume1 {
+    height: 200px;
+    width: 1500px;   
+    background-color: #1094ec;
+    color: #49a4ce;
+    position: relative;
+    top: 1980px;
+}
+.resume1 a{
+    height: 200px;
+    width: 200px;
+    top:100px;
+    position: relative;
+    left: 650px;
+    border-radius: 20px;
+    background-color: #0b7cc8;
+}
+#Contacts {
+    color: #fffd00;
+    position: relative;
+    top: 2000px;
+    left: 150px;
+    width: 150px;
+    font-size: xx-large;
+    text-decoration: underline;
+    height: 45px;
+    justify-content: center;
+    display: flex;
+    background-color: #2b9de2;
+}
+.Contactsdetails{
+    background-color:aquamarine;
+    height: 420px;
+    width: 1500px;
+    position: relative;
+    top: 2100px;
+    left: 5px;
+    
+}
+.contact1{
+    height: 20px;
+    width: 100px;
+    font-size: x-large;
+    color: brown;
+    position: relative;
+    top: 60px;
+    left:   720px;
+    background-color: aquamarine;
+}
+.number{
+    background-color:aquamarine;
+    position: relative;
+    left : 200px;
+    width: 300px;
+   font-size: 15px;
+}
+.form1{
+    background:transparent;
+    position: relative;
+    top: 100px;
+    left: 60px;
+    width: 400px;
+    font-size: large;
+    height: 20px;
+}
+.input{
+    position: relative;
+    right: 600px;
+    top: 20px;
+    width: 200px;
+    background-color:aquamarine;
+}
+.input1{
+    position: relative;
+    left: 150px;
+     bottom: 30px;
+     height: 25px;
+    width: 230px;
+    background-color: aliceblue;
+    
+}
+.input2{
+    position: relative;
+    left: 150px;
+    bottom: 20px;
+    width: 230px;
+    height: 100px;
+    background-color: aliceblue;
+    
+    
+}
+.send{
+    background-color: rgb(194, 217, 118);
+    height: 30px;
+    width: 100px;
+    position: relative;
+    top: 20px;
+    right: 390px;
+}
+.number{
+    position: relative;
+    bottom: 200px;
+    font-size: large;
+}
+.icon1{
+    width: 120px;
+    height: 28px;
+    display: flex;
+    flex-direction: row;
+    justify-content: space-evenly;
+}
+.icon1 i{
+    color: rgb(17, 18, 19);
+    background: transparent;
+    font-size: x-large;
+    position: relative;
+    width: 25px;
+    left: 240px;
+    bottom:  230px;
+}
+.end{
+    font-size: large;
+    width: 200px;
+    position: relative;
+    bottom: 60px;
+    text-decoration: underline;
+    right:60px;
+    color: azure;
+}
